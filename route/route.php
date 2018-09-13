@@ -15,6 +15,9 @@ Route::get('think', function () {
 
 Route::get('hello/:name', 'index/hello');
 
+//api接口版本路由配置
+Route::rule(':version/apiver/:id','api/:version.Apiver/read');
+
 return [
 
 ];

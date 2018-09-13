@@ -3,3 +3,10 @@ git checkout 5.1
 
 git clone 指定分支
 git clone -b v5.1 https://github.com/17734027950/thinkphp.git
+
+
+自动生成目录结构
+think build
+application build.php
+
+>php think build
