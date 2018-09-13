@@ -21,7 +21,10 @@
         "guzzlehttp/guzzle": "6.*",
         "endroid/qrcode":"2.*",
         "aliyuncs/oss-sdk-php": "~2.0",
-        "topthink/think-testing":"1.*"
+        "topthink/think-testing":"1.*",
+
+        "psr/log": "^1.0.1",
+        "twig/twig": "1.*"
     },
     "autoload": {
         "psr-4": {
