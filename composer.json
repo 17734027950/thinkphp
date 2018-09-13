@@ -20,7 +20,8 @@
         "topthink/framework": "5.0.*",
         "guzzlehttp/guzzle": "6.*",
         "endroid/qrcode":"2.*",
-        "aliyuncs/oss-sdk-php": "~2.0"
+        "aliyuncs/oss-sdk-php": "~2.0",
+        "topthink/think-testing":"1.*"
     },
     "autoload": {
         "psr-4": {
@@ -31,16 +32,6 @@
         "think-path": "thinkphp"
     },
     "config": {
-        "preferred-install": "dist",
-        "secure-http": false
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "http://packagist.phpcomposer.com"
-        },
-        {
-            "packagist": false
-        }
-    ]
+        "preferred-install": "dist"
+    }
 }
