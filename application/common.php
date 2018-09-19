@@ -10,3 +10,26 @@
 // +----------------------------------------------------------------------
 
 // 应用公共文件
+
+/**
+ * null转空字符串
+ * [nulltostr description]
+ * @author [YangChi] <[18210427950@qq.com]>
+ * @DateTime [2018-09-19T09:47:48+0800]
+ * @version  [version]
+ * @param    [type]                     $arr [description]
+ * @return   [type]                          [description]
+ */
+function nulltostr($arr)
+{
+
+    foreach ($arr as $k=>$v){
+        if(is_null($v)) {
+            $arr [$k] = '';
+        }
+        if(is_array($v)) {
+            $arr [$k] = nulltostr($v);
+        }
+    }
+    return $arr;
+}
