@@ -13,15 +13,16 @@
 
 /**
  * null转空字符串
- * [null2string description]
+ * [null2str description]
  * @author [YangChi] <[18210427950@qq.com]>
  * @DateTime [2018-09-19T09:37:21+0800]
  * @version  [version]
  * @param    array                      $arr [description]
  * @return   [type]                          [description]
  */
-function null2string(array $arr = array())
+function nulltostr($arr)
 {
+
     foreach ($arr as $k=>$v){
         if(is_null($v)) {
             $arr [$k] = '';
