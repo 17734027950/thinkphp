@@ -355,16 +355,16 @@
         },
         {
             "name": "myclabs/php-enum",
-            "version": "1.6.1",
+            "version": "1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/php-enum.git",
-                "reference": "8c5649e4ed99acd53a40eada270154dcac089f7e"
+                "reference": "ca2f4090a7ecae6f0c67fc9bd07cfb51cdf04219"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/php-enum/zipball/8c5649e4ed99acd53a40eada270154dcac089f7e",
-                "reference": "8c5649e4ed99acd53a40eada270154dcac089f7e",
+                "url": "https://api.github.com/repos/myclabs/php-enum/zipball/ca2f4090a7ecae6f0c67fc9bd07cfb51cdf04219",
+                "reference": "ca2f4090a7ecae6f0c67fc9bd07cfb51cdf04219",
                 "shasum": ""
             },
             "require": {
@@ -395,7 +395,7 @@
             "keywords": [
                 "enum"
             ],
-            "time": "2018-05-09T08:09:15+00:00"
+            "time": "2018-08-01T21:05:54+00:00"
         },
         {
             "name": "psr/http-message",
@@ -496,16 +496,16 @@
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v2.8.42",
+            "version": "v2.8.46",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
-                "reference": "d9077ee91fdd64695dc754dc153fc00ada7ade97"
+                "reference": "3f19d7d5913c846275c9aa6d5d862353e529f622"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/d9077ee91fdd64695dc754dc153fc00ada7ade97",
-                "reference": "d9077ee91fdd64695dc754dc153fc00ada7ade97",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/3f19d7d5913c846275c9aa6d5d862353e529f622",
+                "reference": "3f19d7d5913c846275c9aa6d5d862353e529f622",
                 "shasum": ""
             },
             "require": {
@@ -546,29 +546,32 @@
                 "configuration",
                 "options"
             ],
-            "time": "2018-05-30T04:18:42+00:00"
+            "time": "2018-09-08T12:44:02+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.8.0",
+            "version": "v1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "7cc359f1b7b80fc25ed7796be7d96adc9b354bae"
+                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/7cc359f1b7b80fc25ed7796be7d96adc9b354bae",
-                "reference": "7cc359f1b7b80fc25ed7796be7d96adc9b354bae",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e3d826245268269cd66f8326bd8bc066687b4a19",
+                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.8-dev"
+                    "dev-master": "1.9-dev"
                 }
             },
             "autoload": {
@@ -601,20 +604,20 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2018-04-30T19:57:29+00:00"
+            "time": "2018-08-06T14:22:27+00:00"
         },
         {
             "name": "symfony/property-access",
-            "version": "v2.8.42",
+            "version": "v2.8.46",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/property-access.git",
-                "reference": "fe8dcf292aafee2684a1b496a240fc74c2541627"
+                "reference": "353e1a590be65b627258663d6a75f31e0ed1ed3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/property-access/zipball/fe8dcf292aafee2684a1b496a240fc74c2541627",
-                "reference": "fe8dcf292aafee2684a1b496a240fc74c2541627",
+                "url": "https://api.github.com/repos/symfony/property-access/zipball/353e1a590be65b627258663d6a75f31e0ed1ed3d",
+                "reference": "353e1a590be65b627258663d6a75f31e0ed1ed3d",
                 "shasum": ""
             },
             "require": {
@@ -662,20 +665,20 @@
                 "property path",
                 "reflection"
             ],
-            "time": "2018-05-01T22:52:40+00:00"
+            "time": "2018-09-08T12:44:02+00:00"
         },
         {
             "name": "topthink/framework",
-            "version": "v5.1.19",
+            "version": "v5.1.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/framework.git",
-                "reference": "3a0fea90ed2a99b181ce503090e08be1171ed091"
+                "reference": "f607b8fd51cc25e4da7e2f4ef0d5e64f390d36bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/framework/zipball/3a0fea90ed2a99b181ce503090e08be1171ed091",
-                "reference": "3a0fea90ed2a99b181ce503090e08be1171ed091",
+                "url": "https://api.github.com/repos/top-think/framework/zipball/f607b8fd51cc25e4da7e2f4ef0d5e64f390d36bd",
+                "reference": "f607b8fd51cc25e4da7e2f4ef0d5e64f390d36bd",
                 "shasum": ""
             },
             "require": {
@@ -713,7 +716,7 @@
                 "orm",
                 "thinkphp"
             ],
-            "time": "2018-07-13T14:10:28+00:00"
+            "time": "2018-10-22T02:10:08+00:00"
         },
         {
             "name": "topthink/think-installer",
