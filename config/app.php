@@ -8,6 +8,7 @@
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
+use think\facade\Env;
 
 // +----------------------------------------------------------------------
 // | 应用设置
@@ -22,12 +23,10 @@ return [
     'app_debug'              => false,
     // 应用Trace
     'app_trace'              => false,
-    // 是否支持多模块
-    'app_multi_module'       => true,
-    // 入口自动绑定模块
-    'auto_bind_module'       => false,
-    // 注册的根命名空间
-    'root_namespace'         => [],
+    // 应用根命名空间
+    'root_namespace'         => 'app',
+    // 应用命名空间
+    'app_namespace'          => '',
     // 默认输出类型
     'default_return_type'    => 'html',
     // 默认AJAX 数据返回格式,可选json xml ...
@@ -48,23 +47,12 @@ return [
     'class_suffix'           => false,
     // 控制器类后缀
     'controller_suffix'      => false,
-
-    // +----------------------------------------------------------------------
-    // | 模块设置
-    // +----------------------------------------------------------------------
-
-    // 默认模块名
-    'default_module'         => 'index',
-    // 禁止访问模块
-    'deny_module_list'       => ['common'],
     // 默认控制器名
     'default_controller'     => 'Index',
     // 默认操作名
     'default_action'         => 'index',
     // 默认验证器
     'default_validate'       => '',
-    // 默认的空模块名
-    'empty_module'           => '',
     // 默认的空控制器名
     'empty_controller'       => 'Error',
     // 操作方法前缀
@@ -86,8 +74,6 @@ return [
     'pathinfo_depr'          => '/',
     // HTTPS代理标识
     'https_agent_name'       => '',
-    // IP代理获取标识
-    'http_agent_ip'          => 'X-REAL-IP',
     // URL伪静态后缀
     'url_html_suffix'        => 'html',
     // URL普通方式参数 用于自动生成
@@ -122,12 +108,6 @@ return [
     'request_cache_expire'   => null,
     // 全局请求缓存排除规则
     'request_cache_except'   => [],
-    // 是否开启路由缓存
-    'route_check_cache'      => false,
-    // 路由缓存的Key自定义设置（闭包），默认为当前URL和请求类型的md5
-    'route_check_cache_key'  => '',
-    // 路由缓存类型及参数
-    'route_cache_option'     => [],
 
     // 默认跳转页面对应的模板文件
     'dispatch_success_tmpl'  => Env::get('think_path') . 'tpl/dispatch_jump.tpl',

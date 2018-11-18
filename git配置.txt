@@ -1,8 +1,8 @@
-git branch 5.1
-git checkout 5.1
+git branch 5.2
+git checkout 5.2
 
 git clone 指定分支
-git clone -b v5.1 https://github.com/17734027950/thinkphp.git
+git clone -b v5.2 https://github.com/17734027950/thinkphp.git
 
 
 自动生成目录结构
