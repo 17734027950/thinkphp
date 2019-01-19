@@ -11,15 +11,16 @@
 
 return [
     // 数据库类型
-    'type'            => 'mysql',
+    // 'type'            => 'mysql',
+    'type'            => 'sqlsrv',
     // 服务器地址
-    'hostname'        => '127.0.0.1',
+    'hostname'        => '47.104.24.125',
     // 数据库名
-    'database'        => '',
+    'database'        => 'seg',
     // 用户名
-    'username'        => 'root',
+    'username'        => 'sa',
     // 密码
-    'password'        => '',
+    'password'        => 'r3lhU8tGba5ZG704',
     // 端口
     'hostport'        => '',
     // 连接dsn
