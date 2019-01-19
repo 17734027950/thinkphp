@@ -6,6 +6,10 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit903f444d829f9bd83d6543428fc6ea1e
 {
+    public static $files = array (
+        '538ca81a9a966a6716601ecf48f4eaef' => __DIR__ . '/..' . '/opis/closure/functions.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         't' => 
         array (
@@ -21,6 +25,10 @@ class ComposerStaticInit903f444d829f9bd83d6543428fc6ea1e
             'Psr\\Log\\' => 8,
             'Psr\\Container\\' => 14,
             'Psr\\Cache\\' => 10,
+        ),
+        'O' => 
+        array (
+            'Opis\\Closure\\' => 13,
         ),
     );
 
@@ -48,6 +56,10 @@ class ComposerStaticInit903f444d829f9bd83d6543428fc6ea1e
         'Psr\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/cache/src',
+        ),
+        'Opis\\Closure\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/opis/closure/src',
         ),
     );
 
