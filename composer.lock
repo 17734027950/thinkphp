@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a61adf95dff9a52db8e0ddf27a35e55",
+    "content-hash": "2b198878f2331e428e4bdc9512a87fa5",
     "packages": [
         {
             "name": "opis/closure",
@@ -259,16 +259,16 @@
         },
         {
             "name": "topthink/framework",
-            "version": "5.2.x-dev",
+            "version": "6.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/framework.git",
-                "reference": "0b1f942ebc99f406592df6f0f8918dad66771a7e"
+                "reference": "cd08ae3e04313f368e8cb652da29cd6a4a63666a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/framework/zipball/0b1f942ebc99f406592df6f0f8918dad66771a7e",
-                "reference": "0b1f942ebc99f406592df6f0f8918dad66771a7e",
+                "url": "https://api.github.com/repos/top-think/framework/zipball/cd08ae3e04313f368e8cb652da29cd6a4a63666a",
+                "reference": "cd08ae3e04313f368e8cb652da29cd6a4a63666a",
                 "shasum": ""
             },
             "require": {
@@ -280,13 +280,9 @@
                 "psr/simple-cache": "^1.0"
             },
             "require-dev": {
-                "johnkary/phpunit-speedtrap": "^1.0",
-                "mikey179/vfsstream": "~1.6",
-                "phpdocumentor/reflection-docblock": "^2.0",
-                "phploc/phploc": "2.*",
-                "phpunit/phpunit": "^6.0",
-                "sebastian/phpcpd": "2.*",
-                "squizlabs/php_codesniffer": "2.*"
+                "mikey179/vfsstream": "^1.6",
+                "mockery/mockery": "^1.2",
+                "phpunit/phpunit": "^7.0"
             },
             "type": "library",
             "autoload": {
@@ -316,7 +312,127 @@
                 "orm",
                 "thinkphp"
             ],
-            "time": "2019-03-23T08:47:13+00:00"
+            "time": "2019-04-15T05:12:36+00:00"
+        },
+        {
+            "name": "topthink/think-installer",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/top-think/think-installer.git",
+                "reference": "f5400a12c60e513911aef41fe443fa6920952675"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/top-think/think-installer/zipball/f5400a12c60e513911aef41fe443fa6920952675",
+                "reference": "f5400a12c60e513911aef41fe443fa6920952675",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "think\\composer\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "think\\composer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "yunwuxin",
+                    "email": "448901948@qq.com"
+                }
+            ],
+            "time": "2018-05-11T06:45:42+00:00"
+        },
+        {
+            "name": "topthink/think-template",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/top-think/think-template.git",
+                "reference": "aee66382c62610b11f0694df8b2aef1ba32f064d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/top-think/think-template/zipball/aee66382c62610b11f0694df8b2aef1ba32f064d",
+                "reference": "aee66382c62610b11f0694df8b2aef1ba32f064d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "think\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "liu21st",
+                    "email": "liu21st@gmail.com"
+                }
+            ],
+            "description": "the php template engine",
+            "time": "2019-02-20T06:02:13+00:00"
+        },
+        {
+            "name": "topthink/think-view",
+            "version": "v1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/top-think/think-view.git",
+                "reference": "2f21fdf06a6ae313f13c9978dae33fb761851b88"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/top-think/think-view/zipball/2f21fdf06a6ae313f13c9978dae33fb761851b88",
+                "reference": "2f21fdf06a6ae313f13c9978dae33fb761851b88",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0",
+                "topthink/think-installer": "^2.0",
+                "topthink/think-template": "^2.0"
+            },
+            "type": "think-extend",
+            "extra": {
+                "think-config": {
+                    "template": "src/config/template.php"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "think\\view\\driver\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "liu21st",
+                    "email": "liu21st@gmail.com"
+                }
+            ],
+            "description": "thinkphp template driver",
+            "time": "2019-03-20T14:47:42+00:00"
         }
     ],
     "packages-dev": [],

@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit903f444d829f9bd83d6543428fc6ea1e
+class ComposerStaticInite104635e9ecf9a10b5433cf3ef03491e
 {
     public static $files = array (
         '538ca81a9a966a6716601ecf48f4eaef' => __DIR__ . '/..' . '/opis/closure/functions.php',
@@ -13,6 +13,8 @@ class ComposerStaticInit903f444d829f9bd83d6543428fc6ea1e
     public static $prefixLengthsPsr4 = array (
         't' => 
         array (
+            'think\\view\\driver\\' => 18,
+            'think\\composer\\' => 15,
             'think\\' => 6,
         ),
         'a' => 
@@ -33,9 +35,18 @@ class ComposerStaticInit903f444d829f9bd83d6543428fc6ea1e
     );
 
     public static $prefixDirsPsr4 = array (
+        'think\\view\\driver\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/topthink/think-view/src',
+        ),
+        'think\\composer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/topthink/think-installer/src',
+        ),
         'think\\' => 
         array (
             0 => __DIR__ . '/..' . '/topthink/framework/src/think',
+            1 => __DIR__ . '/..' . '/topthink/think-template/src',
         ),
         'app\\' => 
         array (
@@ -70,9 +81,9 @@ class ComposerStaticInit903f444d829f9bd83d6543428fc6ea1e
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit903f444d829f9bd83d6543428fc6ea1e::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit903f444d829f9bd83d6543428fc6ea1e::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr0 = ComposerStaticInit903f444d829f9bd83d6543428fc6ea1e::$fallbackDirsPsr0;
+            $loader->prefixLengthsPsr4 = ComposerStaticInite104635e9ecf9a10b5433cf3ef03491e::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInite104635e9ecf9a10b5433cf3ef03491e::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr0 = ComposerStaticInite104635e9ecf9a10b5433cf3ef03491e::$fallbackDirsPsr0;
 
         }, null, ClassLoader::class);
     }
