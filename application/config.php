@@ -238,4 +238,10 @@ return [
         'var_page'  => 'page',
         'list_rows' => 15,
     ],
+
+    /**
+     * tp5.1 api多版本控制
+     */
+    'controller_auto_search' => true,
+    
 ];
