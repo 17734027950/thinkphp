@@ -11,16 +11,15 @@
 
 return [
     // 数据库类型
-    // 'type'            => 'mysql',
-    'type'            => 'sqlsrv',
+    'type'            => 'mysql',
     // 服务器地址
-    'hostname'        => '47.104.24.125',
+    'hostname'        => '127.0.0.1',
     // 数据库名
-    'database'        => 'seg',
+    'database'        => 'thinkphp5.1',
     // 用户名
-    'username'        => 'sa',
+    'username'        => 'root',
     // 密码
-    'password'        => 'r3lhU8tGba5ZG704',
+    'password'        => 'root',
     // 端口
     'hostport'        => '',
     // 连接dsn
@@ -30,7 +29,7 @@ return [
     // 数据库编码默认采用utf8
     'charset'         => 'utf8',
     // 数据库表前缀
-    'prefix'          => '',
+    'prefix'          => 'tp_',
     // 数据库调试模式
     'debug'           => true,
     // 数据库部署方式:0 集中式(单一服务器),1 分布式(主从服务器)

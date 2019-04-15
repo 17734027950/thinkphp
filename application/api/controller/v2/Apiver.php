@@ -16,6 +16,6 @@ class Apiver extends Controller
     {
         // echo ' v1->apiver  '.$id;
         // return json(['msg'=>'index_index']);
-        return json(['id'=>$id,'msg'=>'v2']);
+        return json(['id'=>$id,'msg'=>'Thinkphp5.0  v2']);
     }
 }
