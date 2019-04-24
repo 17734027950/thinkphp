@@ -18,12 +18,11 @@
     "require": {
         "php": ">=5.6.0",
         "topthink/framework": "5.1.*",
-
-
         "guzzlehttp/guzzle": "~6.0",
         "endroid/qrcode":"2.*",
         "psr/log": "^1.0.1",
-        "twig/twig": "1.*"
+        "twig/twig": "1.*",
+        "xaboy/form-builder":"*"
     },
     "autoload": {
         "psr-4": {
