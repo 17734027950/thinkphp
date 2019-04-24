@@ -70,6 +70,10 @@ class ComposerStaticInitaa9c7247e8ce9d16dd352e08b219be8e
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
         ),
+        'F' => 
+        array (
+            'FormBuilder\\' => 12,
+        ),
         'E' => 
         array (
             'Endroid\\QrCode\\' => 15,
@@ -166,6 +170,10 @@ class ComposerStaticInitaa9c7247e8ce9d16dd352e08b219be8e
         'GuzzleHttp\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
+        ),
+        'FormBuilder\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/xaboy/form-builder/src',
         ),
         'Endroid\\QrCode\\' => 
         array (

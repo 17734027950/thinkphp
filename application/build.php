@@ -28,4 +28,11 @@ return [
         'controller' => ['Index', 'Test', 'UserType'],
         'model'      => ['User', 'UserType'],
     ],
+
+    'form'     => [
+        '__file__'   => ['common.php'],
+        '__dir__'    => ['controller', 'model'],
+        'controller' => ['Index'],
+        'model'      => ['User'],
+    ],
 ];
