@@ -22,7 +22,10 @@
         "endroid/qrcode":"2.*",
         "psr/log": "^1.0.1",
         "twig/twig": "1.*",
-        "xaboy/form-builder":"*"
+        "xaboy/form-builder":"*",
+
+        "symfony/form":"*"
+        
     },
     "autoload": {
         "psr-4": {
