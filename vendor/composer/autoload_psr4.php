@@ -23,5 +23,7 @@ return array(
     'GuzzleHttp\\Promise\\' => array($vendorDir . '/guzzlehttp/promises/src'),
     'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
     'FormBuilder\\' => array($vendorDir . '/xaboy/form-builder/src'),
-    'Endroid\\QrCode\\' => array($vendorDir . '/endroid/qrcode/src'),
+    'Endroid\\QrCode\\' => array($vendorDir . '/endroid/qr-code/src', $vendorDir . '/endroid/qrcode/src'),
+    'Endroid\\Installer\\' => array($vendorDir . '/endroid/installer/src'),
+    'DavidNineRoc\\Qrcode\\' => array($vendorDir . '/davidnineroc/qrcodeplus/src'),
 );

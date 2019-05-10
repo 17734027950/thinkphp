@@ -24,7 +24,8 @@
         "twig/twig": "1.*",
         "xaboy/form-builder":"*",
 
-        "symfony/form":"*"
+        "symfony/form":"*",
+        "davidnineroc/qrcodeplus":"*"
         
     },
     "autoload": {
