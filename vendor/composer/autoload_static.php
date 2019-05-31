@@ -14,7 +14,6 @@ class ComposerStaticInite104635e9ecf9a10b5433cf3ef03491e
         't' => 
         array (
             'think\\view\\driver\\' => 18,
-            'think\\composer\\' => 15,
             'think\\' => 6,
         ),
         'a' => 
@@ -38,10 +37,6 @@ class ComposerStaticInite104635e9ecf9a10b5433cf3ef03491e
         'think\\view\\driver\\' => 
         array (
             0 => __DIR__ . '/..' . '/topthink/think-view/src',
-        ),
-        'think\\composer\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/topthink/think-installer/src',
         ),
         'think\\' => 
         array (
