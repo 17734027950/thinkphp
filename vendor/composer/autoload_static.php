@@ -55,6 +55,7 @@ class ComposerStaticInitaa9c7247e8ce9d16dd352e08b219be8e
         array (
             'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
+            'Prophecy\\' => 9,
         ),
         'O' => 
         array (
@@ -151,6 +152,10 @@ class ComposerStaticInitaa9c7247e8ce9d16dd352e08b219be8e
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
+        'Prophecy\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy',
+        ),
         'OSS\\' => 
         array (
             0 => __DIR__ . '/..' . '/aliyuncs/oss-sdk-php/src/OSS',
@@ -191,13 +196,6 @@ class ComposerStaticInitaa9c7247e8ce9d16dd352e08b219be8e
             'Twig_' => 
             array (
                 0 => __DIR__ . '/..' . '/twig/twig/lib',
-            ),
-        ),
-        'P' => 
-        array (
-            'Prophecy\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/phpspec/prophecy/src',
             ),
         ),
         'B' => 
