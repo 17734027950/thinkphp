@@ -7,7 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'think\\view\\driver\\' => array($vendorDir . '/topthink/think-view/src'),
-    'think\\' => array($vendorDir . '/topthink/framework/src/think', $vendorDir . '/topthink/think-template/src'),
+    'think\\' => array($vendorDir . '/topthink/framework/src/think', $vendorDir . '/topthink/think-cache/src', $vendorDir . '/topthink/think-container/src', $vendorDir . '/topthink/think-log/src', $vendorDir . '/topthink/think-orm/src', $vendorDir . '/topthink/think-template/src'),
     'app\\' => array($baseDir . '/app'),
     'Psr\\SimpleCache\\' => array($vendorDir . '/psr/simple-cache/src'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
